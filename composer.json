@@ -1,0 +1,10 @@
+{
+    "name": "petrik/composer_elso",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Petrik\\ComposerElso\\": "src/"
+        }
+    },
+    "require": {}
+}
