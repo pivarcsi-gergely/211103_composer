@@ -6,5 +6,7 @@
             "Petrik\\ComposerElso\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.19"
+    }
 }
