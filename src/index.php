@@ -3,7 +3,11 @@
 //Bármilyen osztályra hivatkozunk, ez a fájl meg fogja találni
 require '../vendor/autoload.php';
 
-$user = new Petrik\ComposerElso\User();
+use Petrik\ComposerElso\User;
+
+$user = new User();
 $user->kiir();
+
+$user->newPet()->roar();
 
 ?>
